@@ -7,9 +7,9 @@ Ciklomatskata kompleksnost na kodot e 7 bidejki brojot na if uslovi e 6 + 1 sto 
 kraen rezultat: "allItems list can't be null!" - prazna niza od elementi ili istata e netocno deklarirana
   
 2. List<Item> newList = new ArrayList<>();  
-newList.add(new Item("", 1, 100, 0));  
+newList.add(new Item("1", 1, 100, 0));  
 newList.add(new Item("2", 1, 200, 0));  
-newList.add(new Item("3", 1, 300, 0));  
+newList.add(new Item("", 1, 300, 0));  
 checkCart(newList, "2314567891092921") - imeto ne smee da bide prazen string  
 kraen rezultat: "Invalid item!"  
   
