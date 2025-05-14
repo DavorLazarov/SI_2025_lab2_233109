@@ -3,7 +3,7 @@ Davor Lazarov 233109
   
 Ciklomatskata kompleksnost na kodot e 7 bidejki brojot na if uslovi e 6 + 1 sto se dodava.
   
-1. checkCart(null, "2314567891092921")
+1. checkCart(null, "2314567891092921")  
 kraen rezultat: "allItems list can't be null!" - prazna niza od elementi ili istata e netocno deklarirana
   
 2. List<Item> newList = new ArrayList<>();  
